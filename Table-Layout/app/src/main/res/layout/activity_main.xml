@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TableLayout
+            android:id="@+id/table_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+                <TextView
+                    android:text="ID"
+                    android:textStyle="bold"
+                    android:padding="5dp"/>
+                <TextView
+                    android:text="Name"
+                    android:textStyle="bold"
+                    android:padding="5dp"/>
+                <TextView
+                    android:text="Age"
+                    android:textStyle="bold"
+                    android:padding="5dp"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/id1"
+                    android:text="1"
+                    android:padding="5dp"/>
+                <TextView
+                    android:id="@+id/name1"
+                    android:text="John"
+                    android:padding="5dp"/>
+                <TextView
+                    android:id="@+id/age1"
+                    android:text="25"
+                    android:padding="5dp"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/id2"
+                    android:text="2"
+                    android:padding="5dp"/>
+                <TextView
+                    android:id="@+id/name2"
+                    android:text="Jane"
+                    android:padding="5dp"/>
+                <TextView
+                    android:id="@+id/age2"
+                    android:text="30"
+                    android:padding="5dp"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/id3"
+                    android:text="3"
+                    android:padding="5dp"/>
+                <TextView
+                    android:id="@+id/name3"
+                    android:text="Bob"
+                    android:padding="5dp"/>
+                <TextView
+                    android:id="@+id/age3"
+                    android:text="20"
+                    android:padding="5dp"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <EditText
+            android:id="@+id/id_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID"/>
+
+        <EditText
+            android:id="@+id/name_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"/>
+
+        <EditText
+            android:id="@+id/age_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Age"/>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"/>
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">L2Viva</string>
+
+    <string name="rupee_symbol">\u20B9</string>
+</resources>

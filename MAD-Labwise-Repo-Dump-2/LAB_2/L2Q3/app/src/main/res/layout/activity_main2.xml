@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rakshit.l2q3.Main2Activity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type here"
+        android:id="@+id/edit"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit"
+        android:layout_alignEnd="@id/edit"
+        android:layout_alignParentEnd="true"
+        android:text="ok"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit"
+        android:id="@+id/cancel"
+        android:text="cancel"
+        android:layout_alignStart="@id/cancel"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>
